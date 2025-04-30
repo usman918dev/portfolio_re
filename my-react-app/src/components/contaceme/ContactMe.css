@@ -1,0 +1,131 @@
+/* src/ContactMe.css */
+.contact-me-container {
+  padding: 2rem;
+  /* background: linear-gradient(135deg, #2c3e50, #1a1a1a); Darker gradient background */
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  color:   #ddd;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid #ff5e3a;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ddd;
+  margin-bottom: 2rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+.contact-form {
+  width: 90%;
+  background: #333; /* Darker background for the form */
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-form:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #eee;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #444;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #eee;
+  background-color: #444;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color:  #FF7E5F; /* Updated focus border color */
+  outline: none;
+}
+
+.form-textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.contact-button {
+  background: linear-gradient(90deg,  #FF7E5F, #ff5e3a); /* Updated button gradient */
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.contact-button:hover {
+  background: linear-gradient(90deg, #ff5e3a,  #FF7E5F); /* Reversed gradient on hover */
+  transform: scale(1.05);
+}
+
+.contact-button:active {
+  background: linear-gradient(90deg,  #FF7E5F, #ff5e3a); /* Original gradient on click */
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 2.5rem;
+  }
+
+  .contact-subtitle {
+    font-size: 1rem;
+  }
+
+  .form-label {
+    font-size: 1rem;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 0.9rem;
+  }
+
+  .contact-button {
+    font-size: 1rem;
+  }
+  .contact-form{
+    width: 80%;
+  }
+}

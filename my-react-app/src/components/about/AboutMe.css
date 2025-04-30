@@ -1,0 +1,90 @@
+/* src/AboutMe.css */
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 90px;
+  padding: 2rem;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the profile picture and text */
+  margin-bottom: 2rem;
+}
+.h1{
+  color: #FF7E5F;
+  /* text-align: cen; */
+}
+.ab{
+  color: white;
+  border-bottom: 2px solid #FF7E5F;
+}
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #FF7E5F;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: #FF7E5F;
+  margin: 0;
+}
+
+.content-section {
+  max-width: 800px;
+  width: 100%;
+  padding: 0 1rem; /* Add some padding for smaller screens */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .profile-section {
+      flex-direction: column; /* Stack profile picture and text vertically */
+      align-items: center;
+  }
+
+  .profile-picture {
+      width: 120px;
+      height: 120px;
+  }
+
+  .name {
+      font-size: 1.5rem;
+  }
+
+  .title {
+      font-size: 1rem;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .about-me-container {
+      padding: 1rem;
+  }
+
+  .name {
+      font-size: 1.25rem;
+  }
+
+  .title {
+      font-size: 0.875rem;
+  }
+
+
+}
