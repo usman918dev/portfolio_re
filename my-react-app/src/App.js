@@ -10,6 +10,7 @@ import Experience from './components/experience/Experience';
 import ContactMe from './components/contaceme/ContactMe';
 import Footer from './components/footer/Footer';
 import Bg from './components/bg/Bg';
+import Home from './components/home/Home';
 function App() {
   return (
     <div className="App">
@@ -17,13 +18,14 @@ function App() {
       <Navbar />
       
       <LandingPage/>
-      {/* <hr/>
+      <hr/>
       <AboutMe/>
-      <Projects/>
+      <Home/>
+      {/* <Projects/>
       <Experience/>
       <ContactMe/>
-      <Footer/>
-      <Bg/> */}
+      <Footer/> */}
+      {/* <Bg/> */}
     </div>
   );
 }

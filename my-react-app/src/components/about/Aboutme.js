@@ -5,28 +5,24 @@ import './AboutMe.css';
 const AboutMe = () => {
   return (
     <div className="about-me-container" id='about'>
-      <h1 className='h1 ab'>About Me</h1>
-      <div className="profile-section">
-        <img
-          src="https://via.placeholder.com/150" // Replace with your profile picture URL
-          alt="Profile"
-          className="profile-picture"
-        />
-        <h1 className="name">Muhammad Usman</h1>
-        <p className="title">Web Developer</p>
-      </div>
+      <h1 className='ab'>About Me</h1>
       <div className="content-section">
+
         <section className="status-section">
-          <h2 className='h1'>Current Status</h2>
+          <h2 className='abb'>Current Status</h2>
           <p>
-            I am currently learning Full Stack Development at <span className='h1'>SMIT</span>(Saylani Mass IT Training Center), where I
-            focus on learning modern technologies like
-            <span className='h1'> React, Node.js,</span> and <span className='h1'>MangoDB</span>. I am passionate about coding and enjoy
-            solving complex problems with innovative solutions.
+            I have completed Web/App Development at <span className='h1'>SMIT</span> (Saylani Mass IT Training Center), where I focused on mastering modern technologies like <span className='h1'>React, Node.js, NextJs</span> and <span className='h1'>MongoDB</span>.
           </p>
-          <p>I am currently pursuing a <span className='h1'>Bachelor's Degree</span> in <span className='h1'>Software Engineering </span> at <span className='h1'>Virtual University</span>, with an expected graduation date of 2028.<br/><br/> My educational journey at Virtual University is equipping me with a solid foundation in software development</p>
+          <p>
+            I am also pursuing a <span className='h1'>Bachelor's Degree</span> in <span className='h1'>Software Engineering</span> at <span className='h1'>Virtual University</span>, with an expected graduation date of 2028.
+          </p>
         </section>
-      
+        <section className="goals-section">
+          <h2 className='abb'>My Goals</h2>
+          <p>
+            My goal is to become a proficient full stack developer, contribute to innovative projects, and collaborate with talented teams. I am eager to take on new challenges, expand my skill set, and make a positive impact in the tech industry.
+          </p>
+        </section>
       </div>
     </div>
   );
