@@ -104,6 +104,7 @@ const Bg = () => {
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}
+        
       />
     );
   }

@@ -4,27 +4,37 @@ import './AboutMe.css';
 
 const AboutMe = () => {
   return (
-    <div className="about-me-container" id='about'>
-      <h1 className='ab'>About Me</h1>
-      <div className="content-section">
-
-        <section className="status-section">
-          <h2 className='abb'>Current Status</h2>
-          <p>
-            I have completed Web/App Development at <span className='h1'>SMIT</span> (Saylani Mass IT Training Center), where I focused on mastering modern technologies like <span className='h1'>React, Node.js, NextJs</span> and <span className='h1'>MongoDB</span>.
-          </p>
-          <p>
-            I am also pursuing a <span className='h1'>Bachelor's Degree</span> in <span className='h1'>Software Engineering</span> at <span className='h1'>Virtual University</span>, with an expected graduation date of 2028.
-          </p>
-        </section>
-        <section className="goals-section">
-          <h2 className='abb'>My Goals</h2>
-          <p>
-            My goal is to become a proficient full stack developer, contribute to innovative projects, and collaborate with talented teams. I am eager to take on new challenges, expand my skill set, and make a positive impact in the tech industry.
-          </p>
-        </section>
+    <section className="about-me" id="about">
+      <div className="about-me-container">
+        <div className="content-section">
+          <h1 className="ab">About Me</h1>
+          <section className="status-section">
+            <p>
+              I am a <span className="h1">MERN Stack</span> and <span className="h1">Next.js</span> Developer from Faisalabad, Pakistan.
+            </p>
+            <p>
+              I have been self-learning <span className="h1">programming</span> and <span className="h1">web development</span> since mid-2023.
+            </p>
+            <p>
+              Recently, I completed <span className="h1">Web/App Development</span> training at <span className="h1">SMIT</span> (Saylani Mass IT Training Center), where I focused on mastering modern technologies like <span className="h1">React</span>, <span className="h1">Node.js</span>, <span className="h1">Next.js</span>, and <span className="h1">MongoDB</span>.
+            </p>
+            <p>
+              I am also pursuing a <span className="h1">Bachelor's Degree</span> in <span className="h1">Software Engineering</span> at <span className="h1">Virtual University</span>, with an expected graduation in 2028.
+            </p>
+            <p>
+              I have worked on several projects, including a <span className="h1">courier management system</span>, a <span className="h1">social media app</span>, and a <span className="h1">event management system</span>. These projects helped me strengthen my skills in <span className="h1">Firebase</span>, <span className="h1">Redux</span>, <span className="h1">JWT authentication</span>, and more.
+            </p>
+            <p>
+              I believe in continuous growth and am currently learning modern <span className="h1">Next.js</span> and exploring <span className="h1">AI integrations</span> using the <span className="h1">OpenAI API</span>.
+            </p>
+            <p>
+              My ultimate goal is to contribute to impactful projects, collaborate with forward-thinking teams, and become a highly skilled full-stack engineer.
+            </p>
+          </section>
+        </div>
       </div>
-    </div>
+
+    </section>
   );
 };
 

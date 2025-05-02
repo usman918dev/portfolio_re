@@ -1,67 +1,38 @@
-/* src/AboutMe.css */
 .about-me-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-left: 90px;
+  margin-left: 7lvw;
   padding: 2rem;
   color: #e0e0e0;
   font-family: Arial, sans-serif;
-  min-height: 100vh;
-  max-width: 100vw;
+  min-height: 90vh;
   box-sizing: border-box;
 }
 
-.profile-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center the profile picture and text */
-  margin-bottom: 2rem;
-}
-.h1{
+.h1 {
   color: #FF7E5F;
   font-size: 1.2rem;
 }
-.abb{
-  color: #FF7E5F;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-.ab{
+
+.ab {
   color: white;
-  border-bottom: 2px solid #FF7E5F;
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
-}
-.profile-picture {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #FF7E5F;
-  margin-bottom: 1rem;
-}
-
-
-.title {
-  font-size: 1.2rem;
-  color: #FF7E5F;
-  margin: 0;
 }
 
 .content-section {
   max-width: 800px;
   width: 100%;
-  padding: 0 1rem; /* Add some padding for smaller screens */
+  padding: 0 1rem;
   box-sizing: border-box;
 }
 
-.status-section, .goals-section {
-  margin-bottom: 2rem;
+.status-section {
+  margin-top: 60px;
 }
 
-/* Media Queries for Responsive Design */
-@media (max-width: 1024px) {
+/* Media Queries */
+/* @media (max-width: 1024px) {
   .about-me-container {
     margin-left: 0;
     padding: 2rem 1rem;
@@ -70,17 +41,12 @@
     max-width: 95vw;
     padding: 0;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .about-me-container {
-    margin-left: 0;
     padding: 1.5rem 0.5rem;
     min-height: unset;
-  }
-  .content-section {
-    max-width: 100vw;
-    padding: 0;
   }
   .h1 {
     font-size: 1.5rem;
@@ -94,9 +60,6 @@
   .about-me-container {
     padding: 1rem 0.2rem;
   }
-  .content-section {
-    padding: 0;
-  }
   .h1 {
     font-size: 1.1rem;
   }
@@ -104,44 +67,7 @@
     font-size: 1.3rem;
     margin-bottom: 1rem;
   }
-  .status-section, .goals-section {
+  .status-section {
     margin-bottom: 1rem;
   }
-}
-@media (max-width: 768px) {
-  .profile-section {
-      flex-direction: column; /* Stack profile picture and text vertically */
-      align-items: center;
-  }
-
-  .profile-picture {
-      width: 120px;
-      height: 120px;
-  }
-
-  .name {
-      font-size: 1.5rem;
-  }
-
-  .title {
-      font-size: 1rem;
-  }
-
-
-}
-
-@media (max-width: 480px) {
-  .about-me-container {
-      padding: 1rem;
-  }
-
-  .name {
-      font-size: 1.25rem;
-  }
-
-  .title {
-      font-size: 0.875rem;
-  }
-
-
 }
