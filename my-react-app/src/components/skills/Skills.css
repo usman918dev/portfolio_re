@@ -1,0 +1,66 @@
+/* Skills section styles */
+.skills-section {
+  padding: 3rem 2rem;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: 7vw; */
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  border-bottom: 2px solid #FF7E5F;
+  padding-bottom: 0.5rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 900px;
+  width: 100%;
+  justify-content: center;
+}
+
+.skill-item {
+  background: #ffffff0a;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+@media (max-width: 700px) {
+  .skills-section {
+    margin-left: 0vw;
+    padding: 2rem 0.5rem;
+  }
+  .skills-title {
+    font-size: 2rem;
+  }
+  .skills-list {
+    gap: 0.7rem;
+  }
+  .skill-item {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+  }
+}
+
+
+.github-container {
+    display: grid;
+    place-items: center;
+    /* min-height: 100vh; */
+    text-align: center;
+  }
