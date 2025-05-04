@@ -22,22 +22,23 @@
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
-  max-width: 900px;
-  width: 100%;
+  gap: 1.2rem;
+  max-width: 90vw;
   justify-content: center;
 }
 
 .skill-item {
-  background: #ffffff0a;
+  /* background: #ffffff0a; */
   padding: 1rem 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-  font-size: 1.2rem;
+  /* box-shadow: 0 2px 2px 1px #ff7f5f5d; */
+  border: 0.1px solid #FF7E5F;
+  font-size: 1rem;
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 600;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0.5rem;
-  transition: transform 0.2s, box-shadow 0.2s;
+  min-width: 200px;
 }
 
 @media (max-width: 700px) {
@@ -57,7 +58,23 @@
   }
 }
 
-
+@media (max-width: 500px) {
+  .skills-section {
+    padding: 2rem 0.5rem;
+  }
+  .skills-title {
+    font-size: 1.8rem;
+  }
+  .skills-list {
+    gap: 0.5rem;
+    width: 100vw;
+  }
+  .skill-item {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    min-width: 200px;
+  }
+}
 .github-container {
     display: grid;
     place-items: center;

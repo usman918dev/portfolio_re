@@ -28,7 +28,7 @@ function App() {
       <GitHub/>
       <Project/>
 
-      {/* <Experience /> */}
+      <Experience />
       {/* <ContactMe />
       <Footer />
       <Bg /> */}

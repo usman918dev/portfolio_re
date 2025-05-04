@@ -14,8 +14,8 @@ const skills = [
   { name: 'MongoDB', icon: <SiMongodb color="#47A248" /> },
   { name: 'Express-JS', icon: <SiExpress color="#000000" /> },
   { name: 'REST API', icon: <FaDatabase color="#4DB33D" /> },
-  { name: 'Redux Toolkit', icon: <SiRedux color="#764ABC" /> },
   { name: 'Node-JS', icon: <FaNodeJs color="#339933" /> },
+  { name: 'Redux Toolkit', icon: <SiRedux color="#764ABC" /> },
   { name: 'Tailwind CSS', icon: <SiTailwindcss color="#06B6D4" /> },
 ];
 

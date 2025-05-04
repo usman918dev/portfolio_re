@@ -13,9 +13,6 @@ const AboutMe = () => {
               I am a <span className="h1">MERN Stack</span> and <span className="h1">Next.js</span> Developer from Faisalabad, Pakistan.
             </p>
             <p>
-              I have been self-learning <span className="h1">programming</span> and <span className="h1">web development</span> since mid-2023.
-            </p>
-            <p>
               Recently, I completed <span className="h1">Web/App Development</span> training at <span className="h1">SMIT</span> (Saylani Mass IT Training Center), where I focused on mastering modern technologies like <span className="h1">React</span>, <span className="h1">Node.js</span>, <span className="h1">Next.js</span>, and <span className="h1">MongoDB</span>.
             </p>
             <p>

@@ -6,9 +6,9 @@ import './Projects.css';
 import img from "../assets/download.jpeg"
 const projects = [
   {
-    title: 'E - Commerce',
+    title: 'X-Courier',
     image: '/assets/about.png',
-    description: 'On working.On working.On working.On working.On working.On working. This project involves building a full-stack application with React and Node.js.',
+    description: 'A courier management system build with NextJS REST Api and MongoDB. Fearues allow admin to create and manage branches, staff, and riders. Users can create and track their orders. ',
     github: 'https://github.com/yourusername/project-one',
     live: 'https://example.com/project-one',
   },
@@ -52,8 +52,8 @@ const projects = [
 const Projects = () => {
   return (
     <div className="projects-container" id='projects'>
-      <p style={{ fontWeight:0, marginBottom:"-10px", fontSize:"3rem"}}>
-        My Recent <strong style={{color:"#FF7E5F",}}>Works </strong>
+      <p style={{ fontWeight: 0, marginBottom: "-10px", fontSize: "3rem" }}>
+        My Recent <strong style={{ color: "#FF7E5F", }}>Works </strong>
       </p>
       <p style={{ marginBottom: "10lvh" }}>
         Here are a few projects I've worked on recently.
