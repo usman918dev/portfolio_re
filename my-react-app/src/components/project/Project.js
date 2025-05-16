@@ -3,11 +3,10 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Projects.css';
-import img from "../assets/download.jpeg"
 const projects = [
   {
-    title: 'X-Courier',
-    image: '/assets/about.png',
+    title: 'CourierX',
+    image: '/assets/courierX.png',
     description: 'A courier management system build with NextJS REST Api and MongoDB. Fearues allow admin to create and manage branches, staff, and riders. Users can create and track their orders. ',
     github: 'https://github.com/yourusername/project-one',
     live: 'https://example.com/project-one',
@@ -62,7 +61,6 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
             <div className="project-content">
-              <img src={project.image} alt={project.title} className="project-image" />
 
               <h2 className="project-title">{project.title}</h2>
               <p className="project-description">{project.description}</p>
@@ -75,7 +73,9 @@ const Projects = () => {
                   <span className="project-label live">Live </span>
                 </a>
               </div>
+
             </div>
+            <img src={project.image} alt={project.title} className="project-image" />
           </div>
         ))}
       </div>
@@ -86,47 +86,3 @@ const Projects = () => {
 export default Projects;
 
 
-
-
-// import React from 'react';
-// import ProjectCard from './ProjectCard';
-// import "./Projects.css"
-
-// function Project() {
-//   const projectData = [
-//     {
-//       image: 'https://via.placeholder.com/400x250',
-//       title: 'Smart News Aggregator',
-//       description: 'Scrapes trending news from multiple sources and summarizes using OpenAI.',
-//       techStack: ['Next.js', 'OpenAI API', 'Web Scraping', 'CSS'],
-//       githubLink: 'https://github.com/your-repo/news-app',
-//       liveLink: 'https://your-live-site.com/news-app',
-//     },
-//     {
-//       image: 'https://via.placeholder.com/400x250',
-//       title: 'Restaurant Ordering App',
-//       description: 'A Firebase-authenticated app to manage online food orders.',
-//       techStack: ['React', 'Firebase', 'Redux', 'MongoDB'],
-//       githubLink: 'https://github.com/your-repo/restaurant-app',
-//       liveLink: 'https://your-live-site.com/restaurant',
-//     },
-//     {
-//       image: 'https://via.placeholder.com/400x250',
-//       title: 'Restaurant Ordering App',
-//       description: 'A Firebase-authenticated app to manage online food orders.',
-//       techStack: ['React', 'Firebase', 'Redux', 'MongoDB'],
-//       githubLink: 'https://github.com/your-repo/restaurant-app',
-//       liveLink: 'https://your-live-site.com/restaurant',
-//     }
-//   ];
-
-//   return (
-//     <div className='project-container'>
-//       {projectData.map((project, index) => (
-//         <ProjectCard key={index} {...project} />
-//       ))}
-//     </div>
-//   );
-// }
-
-// export default Project;
