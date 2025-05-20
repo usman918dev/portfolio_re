@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'CMS',
     image: '/assets/images.jpeg',
-    description: 'On working.On working.On workining.On working.On working. This project is focused on developing a mobile application using React Native.',
+    description: 'On workingorking.On working. This project is focused on developing a mobile application using React Native.',
     github: 'https://github.com/yourusername/project-two',
     live: 'https://example.com/project-two',
   },
