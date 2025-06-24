@@ -2,6 +2,7 @@
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://osmanbey918.github.io/portfolio_re",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
@@ -12,6 +13,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
     "date-fns": "^4.1.0",
+    "emailjs-com": "^3.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-github-calendar": "^3.2.2",
@@ -24,6 +26,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

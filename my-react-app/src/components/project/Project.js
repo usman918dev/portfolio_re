@@ -5,47 +5,34 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Projects.css';
 const projects = [
   {
-    title: 'CourierX',
+    title: 'AiTechBlog',
+    image: '/assets/home-ss.png',
+    description: 'A modern AI and tech blog built with Next.js and Tailwind CSS. It features articles, tutorials, and resources on artificial intelligence and technology trends.',
+    github: 'https://github.com/osmanbey918/AiTechBlog',
+    live: '',
+  },
+  {
+    title: 'Courier Management System',
     image: '/assets/courierX.png',
-    description: 'A courier management system build with NextJS REST Api and MongoDB. Fearues allow admin to create and manage branches, staff, and riders. Users can create and track their orders. ',
-    github: 'https://github.com/yourusername/project-one',
-    live: 'https://example.com/project-one',
+    description: 'A web app for managing courier deliveries efficiently. Built with Next.js, REST API, and MongoDB, it allows admins to manage branches, staff, and orders.',
+    github: 'https://github.com/osmanbey918/courier-management-system',
+    live: 'https://courier-management-system-iota.vercel.app/',
   },
   {
-    title: 'CMS',
-    image: '/assets/images.jpeg',
-    description: 'On workingorking.On working. This project is focused on developing a mobile application using React Native.',
-    github: 'https://github.com/yourusername/project-two',
-    live: 'https://example.com/project-two',
+    title: 'Event Management System',
+    image: '/assets/event.png',
+    description: 'An event management platform built using the MERN stack. It helps users organize, manage, and track events with ease.',
+    github: 'https://github.com/osmanbey918/final-hackathon-SMIT',
+    live: 'event-site-918.surge.sh',
   },
   {
-    title: 'Graphs',
-    image: '/assets/images.jpeg',
-    description: 'On working.On working.On working.On working.On working.On working. This is a data visualization project.',
-    github: 'https://github.com/yourusername/project-three',
-    live: 'https://example.com/project-three',
+    title: 'Hackathon Project',
+    image: '/assets/hotel.png',
+    description: 'A hackathon app built using React, Redux Toolkit, and Firebase. It supports authentication, Firestore database, and file storage.',
+    github: 'https://github.com/osmanbey918/Hackathon',
+    live: 'https://osmanbey918.github.io/Hackathon',
   },
-  {
-    title: 'WeChat',
-    image: '/assets/images.jpeg',
-    description: 'On working.On working.On working.On working.On working.On working. This project is about creating a real-time chat application.',
-    github: 'https://github.com/yourusername/project-four',
-    live: 'https://example.com/project-four',
-  },
-  {
-    title: 'WeChat',
-    image: '/assets/images.jpeg',
-    description: 'On working.On working.On working.On working.On working.On working. This project is about creating a real-time chat application.',
-    github: 'https://github.com/yourusername/project-four',
-    live: 'https://example.com/project-four',
-  },
-  {
-    title: 'WeChat',
-    image: '/assets/images.jpeg',
-    description: 'On working.On working.On working.On working.On working.On working. This project is about creating a real-time chat application.',
-    github: 'https://github.com/yourusername/project-four',
-    live: 'https://example.com/project-four',
-  },
+
 ];
 
 const Projects = () => {

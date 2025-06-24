@@ -28,10 +28,10 @@ function App() {
       <GitHub/>
       <Project/>
 
-      <Experience />
-      {/* <ContactMe />
+      {/* <Experience /> */}
+      <ContactMe />
       <Footer />
-      <Bg /> */}
+      {/* <Bg /> */}
     </div>
   );
 }

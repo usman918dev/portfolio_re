@@ -36,7 +36,7 @@
 
 .contact-form {
   width: 90%;
-  background: #333; /* Darker background for the form */
+  /* background: #333; Darker background for the form */
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
@@ -67,7 +67,7 @@
   border-radius: 8px;
   font-size: 1rem;
   color: #eee;
-  background-color: #444;
+  background-color: #4444441f;
   box-sizing: border-box;
   transition: border-color 0.3s;
 }
