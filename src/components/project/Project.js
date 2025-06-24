@@ -6,28 +6,28 @@ import './Projects.css';
 const projects = [
   {
     title: 'AiTechBlog',
-    image: '/assets/home-ss.png',
+    image: process.env.PUBLIC_URL + '/assets/home-ss.png',
     description: 'A modern AI and tech blog built with Next.js and Tailwind CSS. It features articles, tutorials, and resources on artificial intelligence and technology trends.',
     github: 'https://github.com/osmanbey918/AiTechBlog',
     live: '',
   },
   {
     title: 'Courier Management System',
-    image: '/assets/courierX.png',
+    image: process.env.PUBLIC_URL + '/assets/courierX.png',
     description: 'A web app for managing courier deliveries efficiently. Built with Next.js, REST API, and MongoDB, it allows admins to manage branches, staff, and orders.',
     github: 'https://github.com/osmanbey918/courier-management-system',
     live: 'https://courier-management-system-iota.vercel.app/',
   },
   {
     title: 'Event Management System',
-    image: '/assets/event.png',
+    image: process.env.PUBLIC_URL + '/assets/event.png',
     description: 'An event management platform built using the MERN stack. It helps users organize, manage, and track events with ease.',
     github: 'https://github.com/osmanbey918/final-hackathon-SMIT',
     live: 'event-site-918.surge.sh',
   },
   {
     title: 'Hackathon Project',
-    image: '/assets/hotel.png',
+    image: process.env.PUBLIC_URL + '/assets/hotel.png',
     description: 'A hackathon app built using React, Redux Toolkit, and Firebase. It supports authentication, Firestore database, and file storage.',
     github: 'https://github.com/osmanbey918/Hackathon',
     live: 'https://osmanbey918.github.io/Hackathon',
