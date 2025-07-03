@@ -1,29 +1,24 @@
-// src/Experience.js
 import React from 'react';
 import './Experience.css';
 
 const achievements = [
   {
-    title: '1 Year Experience',
-    description: 'Professional experience in software development, working on various projects and technologies.',
+    title: '1.5 Years of Self-Learning',
+    description: 'Self-employed developer actively learning and building real-world projects for the past 1.5 years, focusing on modern full-stack development.',
   },
   {
     title: '150+ LeetCode Problems Solved',
-    description: 'Demonstrated problem-solving skills and algorithmic thinking by solving a wide range of coding challenges.',
+    description: 'Gained problem-solving skills and algorithmic thinking by solving a wide range of coding challenges.',
   },
   {
-    title: '10+ GitHub Repositories',
-    description: 'Contributed to multiple projects and open-source repositories, showcasing diverse skills and collaborative work.',
-  },
-  {
-    title: '10+ Projects',
-    description: 'Developed and deployed various projects, ranging from web applications to tools and utilities.',
+    title: '6+ Projects',
+    description: 'Developed and deployed various projects.',
   },
 ];
 
 const Experience = () => {
   return (
-    <div className="experience-container" id='experience'>
+    <div className="experience-container" id="experience">
       <h1 className="experience-title">Experience & Achievements</h1>
       <div className="experience-list">
         {achievements.map((item, index) => (
