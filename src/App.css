@@ -1,6 +1,7 @@
 .App{
-    background: linear-gradient(232deg, rgba(7, 8, 8, 1) 0%, rgba(69, 46, 46, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    /* background: linear-gradient(232deg, rgba(7, 8, 8, 1) 0%, rgba(69, 46, 46, 1) 50%, rgba(0, 0, 0, 1) 100%); */
     color: #FF7E5F;
+    background-color: rgb(20, 20, 20);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,4 +18,17 @@ https://abusaid.netlify.app/ */
     margin-top: 160px;
     border-radius: 40% 10px 4px 10px;  
     fill: #FF7E5F;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 2rem;
+  flex-wrap: wrap; /* Allows responsiveness on smaller screens */
+}
+
+.center > span {
+  flex: 1 1 45%;
+  max-width: 600px;
 }

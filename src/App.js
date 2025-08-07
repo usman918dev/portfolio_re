@@ -22,11 +22,10 @@ function App() {
 
       <LandingPage />
 
-      <AboutMe />
-
       <Skills />
-      <GitHub/>
-      <Project/>
+
+      <GitHub />
+      <Project />
 
       <Experience />
       <ContactMe />

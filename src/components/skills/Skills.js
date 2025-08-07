@@ -1,37 +1,65 @@
+import React from 'react';
 import './Skills.css';
-import { FaJs, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaDatabase } from 'react-icons/fa';
-import { SiRedux, SiNextdotjs, SiFirebase, SiExpress, SiTailwindcss, SiMongodb } from 'react-icons/si';
 
 const skills = [
-  { name: 'JavaScript', icon: <FaJs color="#F7DF1E" /> },
-  { name: 'Html5', icon: <FaHtml5 color="#E34F26" /> },
-  { name: 'CSS3', icon: <FaCss3Alt color="#1572B6" /> },
-  { name: 'React-JS', icon: <FaReact color="#61DAFB" /> },
-  { name: 'Next-JS', icon: <SiNextdotjs color="#000000" /> },
-  { name: 'Firebase', icon: <SiFirebase color="#FFCA28" /> },
-  { name: 'Git', icon: <FaGitAlt color="#F05032" /> },
-  { name: 'GitHub', icon: <FaGithub color="#181717" /> },
-  { name: 'MongoDB', icon: <SiMongodb color="#47A248" /> },
-  { name: 'Express-JS', icon: <SiExpress color="#000000" /> },
-  { name: 'REST API', icon: <FaDatabase color="#4DB33D" /> },
-  { name: 'Node-JS', icon: <FaNodeJs color="#339933" /> },
-  { name: 'Redux Toolkit', icon: <SiRedux color="#764ABC" /> },
-  { name: 'Tailwind CSS', icon: <SiTailwindcss color="#06B6D4" /> },
+  'JavaScript', 'HTML5', 'CSS3', 'React',
+  'Next.js', 'Node.js', 'Express', 'MongoDB',
+  'Firebase', 'Git', 'GitHub', 'Redux',
+  'Tailwind CSS', 'REST API'
 ];
 
 const Skills = () => {
   return (
-    <section className="skills-section" id="skills">
-      <h1 className="skills-title">My <span style={{color:"#FF7E5F"}}>Skillset</span></h1>
-      <div className="skills-list">
-        {skills.map((skill, idx) => (
-          <div className="skill-item" key={idx}>
-            <span className="skill-icon" style={{ fontSize: '2rem', marginRight: '0.5rem' }}>{skill.icon}</span>
-            <span className="skill-name">{skill.name}</span>
+    <main className="about-skills-wrapper">
+      <section className="about-me">
+        <div className="about-me-container">
+          <div className="content-section">
+            <div className="section-header">
+              <h1 className="about-title">About Me</h1>
+              <div className="title-decoration"></div>
+            </div>
+            <section className="status-section">
+              <p className="about-paragraph">
+                I am a <span className="highlight">MERN Stack</span> and <span className="highlight">Next.js</span> Developer from Faisalabad, Pakistan.
+              </p>
+              <p className="about-paragraph">
+                Recently, I completed <span className="highlight">Web/App Development</span> training at <span className="highlight">SMIT</span>, where I focused on modern technologies like <span className="highlight">React</span>, <span className="highlight">Node.js</span>, <span className="highlight">Next.js</span>, and <span className="highlight">MongoDB</span>.
+              </p>
+              <p className="about-paragraph">
+                I'm pursuing a <span className="highlight">Bachelor's Degree</span> in <span className="highlight">Software Engineering</span> at <span className="highlight">Virtual University</span> (expected 2028).
+              </p>
+              <p className="about-paragraph">
+                I've built projects like a <span className="highlight">courier management system</span>, <span className="highlight">social media app</span>, and an <span className="highlight">event management system</span>, using <span className="highlight">Firebase</span>, <span className="highlight">Redux</span>, and <span className="highlight">JWT authentication</span>.
+              </p>
+              <p className="about-paragraph">
+                Currently learning advanced <span className="highlight">Next.js</span> and <span className="highlight">AI integrations</span> via <span className="highlight">OpenAI API</span>.
+              </p>
+              <p className="about-paragraph">
+                My goal is to work on impactful projects and grow into a top full-stack engineer.
+              </p>
+            </section>
           </div>
-        ))}
-      </div>
-    </section>
+        </div>
+      </section>
+
+      <section className="skills-section">
+        <div className="skills-container">
+          <div className="skills-header">
+            <h2 className="skills-title">Core Competencies</h2>
+            <div className="skills-subtitle">Technologies I work with</div>
+          </div>
+          <div className="skills-grid">
+            {skills.map((skill, idx) => (
+              <div className="skill-item" key={idx}>
+                <div className="skill-dot"></div>
+                <span className="skill-name">{skill}</span>
+                <div className="skill-hover-effect"></div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
   );
 };
 

@@ -10,32 +10,32 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    title: 'AiTechBlog',
+    title: 'Techolyze',
     image: homeSS,
-    description: 'A modern AI and tech blog built with Next.js and Tailwind CSS...',
-    github: 'https://github.com/osmanbey918/AiTechBlog',
-    live: 'https://ai-tech-blog-26p6.vercel.app/',
+    description: 'A modern AI design blog built with Next.js and Tailwind CSS...',
+    github: 'https://github.com/usmandev918/AiTechBlog',
+    live: 'https://www.techolyze.com/',
   },
   {
     title: 'Courier Management System',
     image: courierX,
     description: 'A web app for managing courier deliveries efficiently...',
-    github: 'https://github.com/osmanbey918/courier-management-system',
+    github: 'https://github.com/usmandev918/courier-management-system',
     live: 'https://courier-management-system-iota.vercel.app/',
   },
   {
     title: 'Event Management System',
     image: event,
     description: 'An event management platform built using the MERN stack...',
-    github: 'https://github.com/osmanbey918/final-hackathon-SMIT',
+    github: 'https://github.com/usmandev918/final-hackathon-SMIT',
     live: 'http://event-site-918.surge.sh',
   },
   {
     title: 'Hackathon Project',
     image: hotel,
     description: 'A hackathon app built using React, Redux Toolkit, and Firebase...',
-    github: 'https://github.com/osmanbey918/Hackathon',
-    live: 'https://osmanbey918.github.io/Hackathon',
+    github: 'https://github.com/usmandev918/Hackathon',
+    live: 'https://usmandev918.github.io/Hackathon',
   },
 ];
 
