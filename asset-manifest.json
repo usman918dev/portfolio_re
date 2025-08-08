@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio_re/static/css/main.4a71ceb8.css",
+    "main.js": "/portfolio_re/static/js/main.9c0d98e0.js",
+    "static/media/hotel.png": "/portfolio_re/static/media/hotel.f6f11257d2b504e53a73.png",
+    "static/media/event.png": "/portfolio_re/static/media/event.1f4f150fabc3ae8811be.png",
+    "static/media/home-ss.png": "/portfolio_re/static/media/home-ss.6e3f2933eede0fa79cba.png",
+    "static/media/me.jpg": "/portfolio_re/static/media/me.9272e6b03888ecc9d1b7.jpg",
+    "static/media/wellness.png": "/portfolio_re/static/media/wellness.a83eb55936fa25e91fce.png",
+    "index.html": "/portfolio_re/index.html",
+    "main.4a71ceb8.css.map": "/portfolio_re/static/css/main.4a71ceb8.css.map",
+    "main.9c0d98e0.js.map": "/portfolio_re/static/js/main.9c0d98e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a71ceb8.css",
+    "static/js/main.9c0d98e0.js"
+  ]
+}
