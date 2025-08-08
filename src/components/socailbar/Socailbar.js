@@ -10,15 +10,15 @@ const SocialBar = () => {
         <a href="https://www.linkedin.com/in/muhammad-usman-429b362a5/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LinkedIn">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="mailto:example@gmail.com" className="social-icon" aria-label="Gmail">
+        <a href="mailto:usmandev918@gmail.com" className="social-icon" aria-label="Gmail">
           <FontAwesomeIcon icon={faGoogle} />
         </a>
-        <a href="https://github.com/osmanbey918" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub">
+        <a href="https://github.com/usman918dev" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Twitter">
+        {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Twitter">
           <FontAwesomeIcon icon={faTwitter} />
-        </a>
+        </a> */}
       </div>
     </div>
   );

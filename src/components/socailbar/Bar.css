@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  border-radius: 25px;
+  border-radius: 10px;
   box-shadow: 0 4px 4px #ff7f5f98;
 }
 
@@ -46,7 +46,7 @@
 
 @media (max-width: 500px) {
   .social-bar {
-    width: 90vw;
+    width: 100vw;
     flex-direction: row;
     height: 50px;
     margin-top: 0;

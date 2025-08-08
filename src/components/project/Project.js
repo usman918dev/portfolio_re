@@ -3,34 +3,40 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 import homeSS from '../assets/home-ss.png';
-import courierX from '../assets/courierX.png';
+import wellness from '../assets/wellness.png';
 import event from '../assets/event.png';
 import hotel from '../assets/hotel.png';
 import './Projects.css';
 
 const projects = [
   {
-    title: 'Techolyze',
+    title: 'Techolyze Blog',
     image: homeSS,
-    description: 'A modern AI design blog built with Next.js and Tailwind CSS featuring responsive design, markdown content, and SEO optimization.',
+    description: 'A modern AI design tech blog built with Next.js and Tailwind CSS, featuring responsive design, rich Markdown editing via Tiptap, and full SEO optimization. Built on top of ISR/SSG and SSR for blazing-fast performance, it offers dynamic metadata generation, static page routing, proper schema implementation, and SEO best practices — all while delivering a smooth reading experience.',
     github: 'https://github.com/usman918dev/AiTechBlog',
     live: 'https://www.techolyze.com/',
-    tags: ['Next.js', 'Tailwind CSS', 'AI Integration']
+    tags: ['Next.js', 'Tailwind CSS', 'MongoDB', 'ISR', 'SSG', 'SSR', 'SEO',]
   },
   {
-    title: 'Courier Management System',
-    image: courierX,
-    description: 'Full-stack web app for managing courier deliveries with real-time tracking, admin dashboard, and customer portal.',
-    github: 'https://github.com/usman918dev/courier-management-system',
-    live: 'https://courier-management-system-iota.vercel.app/',
-    tags: ['MERN Stack', 'JWT Auth', 'Redux']
+    title: 'Wellness Tracker',
+    image: wellness, 
+    description: 'A modern full-stack wellness tracking app built with Next.js, MongoDB, and NextAuth.js. Track daily habits like water intake, sleep, exercise, and mood with an interactive dashboard, rich filtering, and detailed charts. Features in-app/browser notifications, email reminders, responsive design, and accessibility built in. Includes secure authentication, dynamic reports, and customizable reminders for better daily habits.',
+    github: 'https://github.com/usman918dev/weellness-tracker-crud', 
+    live: 'https://personal-wellness-tracker.vercel.app', 
+    tags: [
+      'Next.js',
+      'Tailwind CSS',
+      'MongoDB',
+      'NextAuth.js',
+      'Chart.js',
+    ]
   },
   {
     title: 'Event Management System',
     image: event,
     description: 'Comprehensive event platform with ticket booking, payment processing, and organizer tools.',
     github: 'https://github.com/usman918dev/final-hackathon-SMIT',
-    live: 'http://event-site-918.surge.sh',
+    live: '',
     tags: ['React', 'Node.js', 'MongoDB']
   },
   {
@@ -45,32 +51,33 @@ const projects = [
 
 const ProjectCard = ({ title, description, github, live, image, tags, index }) => {
   return (
-    <motion.div 
-      className="project-card"
+    <motion.div
+      className="project-card-full"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
+      transition={{ duration: 0.6, delay: index * 0.15 }}
     >
-      <div className="project-image-container">
-        <img src={image} alt={title} className="project-image" />
-        <div className="project-overlay">
-          <div className="project-links">
-            <a href={github} target="_blank" rel="noopener noreferrer">
-              <FaGithub className="project-icon" />
-            </a>
-            <a href={live} target="_blank" rel="noopener noreferrer">
-              <FaExternalLinkAlt className="project-icon" />
-            </a>
-          </div>
-        </div>
+      <div className="project-card-full-image">
+        <img src={image} alt={title} />
       </div>
-      <div className="project-content">
-        <h3 className="project-title">{title}</h3>
-        <p className="project-description">{description}</p>
+
+      <div className="project-card-full-content">
+        <h3>{title}</h3>
+        <p>{description}</p>
+
         <div className="project-tags">
           {tags.map((tag, i) => (
             <span key={i} className="project-tag">{tag}</span>
           ))}
+        </div>
+
+        <div className="project-buttons">
+          <a href={github} target="_blank" rel="noopener noreferrer" className="btn-github">
+            <FaGithub /> GitHub
+          </a>
+          <a href={live} target="_blank" rel="noopener noreferrer" className="btn-live">
+            <FaExternalLinkAlt /> Live Demo
+          </a>
         </div>
       </div>
     </motion.div>
@@ -82,7 +89,7 @@ const Projects = () => {
     <section className="projects-section" id="projects">
       <div className="projects-container">
         <div className="section-header">
-          <motion.h2 
+          <motion.h2
             className="section-title"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -90,7 +97,7 @@ const Projects = () => {
           >
             My <span className="highlight">Projects</span>
           </motion.h2>
-          <motion.p 
+          <motion.p
             className="section-subtitle"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -100,7 +107,7 @@ const Projects = () => {
           </motion.p>
         </div>
 
-        <div className="projects-grid">
+        <div className="projects-list">
           {projects.map((project, index) => (
             <ProjectCard key={index} index={index} {...project} />
           ))}

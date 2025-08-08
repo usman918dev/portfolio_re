@@ -9,18 +9,18 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-links">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/usman918dev" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className="footer-icon" />
             <span className="sr-only">GitHub</span>
           </a>
-          <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/usmandev918" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="footer-icon" />
             <span className="sr-only">LinkedIn</span>
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} className="footer-icon" />
             <span className="sr-only">Twitter</span>
-          </a>
+          </a> */}
         </div>
         <div className="footer-info">
           <p>© {new Date().getFullYear()} Muhammad Usman. All rights reserved.</p>

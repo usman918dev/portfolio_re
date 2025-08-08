@@ -3,9 +3,14 @@ import './Experience.css';
 
 const achievements = [
   {
-    title: '1.5 Years of Self-Learning',
-    description: 'Self-employed developer actively learning and building real-world projects for the past 1.5 years, focusing on modern full-stack development.',
+    title: '2 Years of Self-Learning',
+    description: 'Self-employed developer actively learning and building real-world projects for the past 2 years, focusing on modern full-stack development.',
   },
+{
+  title: '12 Months Professional Training from SMIT',
+  description: 'Completed a comprehensive 12-month professional training program at SMIT, covering core web technologies and hands-on projects to boost practical development skills.',
+},
+
   {
     title: '150+ LeetCode Problems Solved',
     description: 'Gained problem-solving skills and algorithmic thinking by solving a wide range of coding challenges.',
